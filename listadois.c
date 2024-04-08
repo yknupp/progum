@@ -9,7 +9,6 @@ int main() {
     int indiceMenorSalario = 0;
     int numProfessoresAcima40ComSalarioAcima5000 = 0;
 
-    // Ler salários e idades de cada professor
     for (int i = 0; i < NUM_PROFESSORES; i++) {
         printf("Informe o salário do professor %d: ", i + 1);
         scanf("%f", &salarios[i]);
